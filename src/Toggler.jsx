@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 class Toggler extends Component {
   constructor(props) {
     super(props)
-    this.state = { toggleState: 'off' }
+    this.state = { toggleState: 'Off' }
   }
 
   ToggleState = () => {
-    const currentState = this.state.toggleState === 'off' ? 'on' : 'off'
+    const currentState = this.state.toggleState === 'Off' ? 'On' : 'off'
     this.setState({ toggleState: currentState })
   }
 
