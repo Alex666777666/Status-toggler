@@ -7,7 +7,7 @@ class Toggler extends Component {
   }
 
   ToggleState = () => {
-    const currentState = this.state.toggleState === 'Off' ? 'On' : 'off'
+    const currentState = this.state.toggleState === 'Off' ? 'On' : 'Off'
     this.setState({ toggleState: currentState })
   }
 
